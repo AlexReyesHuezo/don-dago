@@ -7,6 +7,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/profile', function () {
+    return view('profile');
+});
+
 Route::get('/characters', [CharacterController::class, 'index'])->name('characters.index');
 Route::get('/characters/create', [CharacterController::class, 'create'])->name('characters.create');
 Route::post('/characters', [CharacterController::class, 'store'])->name('characters.store');

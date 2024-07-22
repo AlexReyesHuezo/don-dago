@@ -54,3 +54,13 @@
     </ul>
   </div>
 @endsection
+
+@section('tu-turno')
+  <div class="bg-white p-4 rounded-lg shadow-lg m-4">
+    <h2 class="text-4xl font-semibold text-blue-900 text-center" id="tu-turno">Tu turno</hjson>
+    <p class="text-lg text-gray-600 p-2">
+      Mira los personajes que otros consideran sus ejemplos. Luego te toca atí, escoge una persona que tu admires ¿Qué aportes consideras ha dejado a la sociedad? ¿Qué lecciones podemos aprender de su vida?
+    </p>
+    <a href="{{ url('characters') }}" class="text-base bg-blue-700 text-white p-2 rounded-lg mt-2">Mi persona modelo</a>
+  </div>
+@endsection
