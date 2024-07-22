@@ -2,11 +2,11 @@
 <div class="container mx-auto">
   <div class="grid gap-4 m-4">
     <div class="bg-white p-4 rounded-lg shadow-lg">
-      <h2 class="text-4xl font-semibold text-blue-900 text-center">Biografía</h2>
+      <h2 class="text-4xl font-semibold text-blue-900 text-center" id="biografia">Biografía</h2>
       <figure class="pt-2 pb-4">
           <img src="{{ asset('images/perfil-dagoberto.jpg') }}" alt="Dagoberto Gutiérrez" class="w-1/3 h-auto mx-auto m-4 rounded-lg">
           <figcaption class="text-center">
-            <a href="https://pbs.twimg.com/media/GStYZFoXAAAYfAI?format=jpg&name=large">Fuente original</a>
+            <a href="https://pbs.twimg.com/media/GStYZFoXAAAYfAI?format=jpg&name=large" rel="noopener noreferrer" target="_blank">Fuente de imagen original</a>
           </figcaption>
       </figure>
       <p class="text-gray-600 p-2">
@@ -31,7 +31,7 @@
 
 @section('cargos')
   <div class="bg-white p-4 rounded-lg shadow-lg m-4">
-    <h2 class="text-4xl font-semibold text-blue-900 text-center">Cargos</h2>
+    <h2 class="text-4xl font-semibold text-blue-900 text-center" id="cargos">Cargos</h2>
     <ul class="list-disc list-inside text-gray-600 p-2">
       <li>Comandante de Insurgencia del FMLN</li>
       <li>Comandante de la Comandancia General del FMLN</li>
@@ -44,7 +44,7 @@
 
 @section('libros')
   <div class="bg-white p-4 rounded-lg shadow-lg m-4">
-    <h2 class="text-4xl font-semibold text-blue-900 text-center">Libros</h2>
+    <h2 class="text-4xl font-semibold text-blue-900 text-center" id="libros">Libros</h2>
     <ul class="list-disc list-inside text-gray-600 p-2">
       <li>Nadie quedará en el olvido: cuentos de la vida real (2004)</li>
       <li>La persona, la fe y la revolución (2011)</li>
